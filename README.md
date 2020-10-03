@@ -12,3 +12,7 @@ pytest -s -v  test_pytest.py
 
 Отчет о покрытии приложения тестами можно вывести с помощью команды
 pytest --cov=. test_pytest.py
+
+[![Travis][build-badge]][build]
+[build-badge]: https://img.shields.io/travis/Larisa1992/E1-Pytest/master.png?style=flat-square
+[build]: https://travis-ci.org/Larisa1992/E1-Pytest
